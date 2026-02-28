@@ -8,7 +8,7 @@ CONFIG_DIR="/usr/share/t2-apple-audio-dsp/config"
 AUDIO_DIR="/usr/share/t2-linux-audio"
 
 # Model dict: "model_id dir_name ..." — add more models here (POSIX sh compatible)
-MODEL_DICT="MacBookPro16,1 16_1 MacBookAir9,1 9_1"
+MODEL_DICT="MacBookPro16,1 16_1 MacBookPro16,4 16_4 MacBookAir9,1 9_1"
 
 get_model_dir() {
     model="$1"
